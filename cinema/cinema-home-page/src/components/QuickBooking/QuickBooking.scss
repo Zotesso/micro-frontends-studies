@@ -1,0 +1,40 @@
+.quick-booking-container {
+  background: #111;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  span{
+    color: white;
+  }
+
+  .header{    
+    color: white;
+    font-size: x-large;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .spacer{
+    flex-grow: 1;
+  }
+
+  .mr-1{
+    margin-right: 10px;
+  }
+
+  .select-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  select, button {
+    padding: 7px 20px;
+  }
+
+  button {
+    margin-top: 18px;
+  }
+}
