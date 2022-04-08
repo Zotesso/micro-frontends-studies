@@ -12,15 +12,16 @@ App.get("/products", (req, res) => {
   res.send(productData);
 });
 
-App.get("/product/:id", (req, res) => {
+App.get("/product/image/:id", (req, res) => {
   productData.find((product) => {
     if (product.id === parseInt(req.params.id)) {
       const options = {
         root: path.join(__dirname, "assets/images/"),
       };
-
+      console.log(product);
       res.sendFile(product.imageUrl, options, (err) => {
         if (err) {
+          console.log(err);
           res.sendStatus(404);
         } else {
           console.log("File sent to client");
@@ -28,7 +29,14 @@ App.get("/product/:id", (req, res) => {
       });
     }
   });
-  
+});
+
+App.get("/product/:id", (req, res) => {
+  productData.find((product) => {
+    if (product.id === parseInt(req.params.id)) {
+      res.send(product);
+    }
+  });
 });
 
 App.listen(5555, () => {

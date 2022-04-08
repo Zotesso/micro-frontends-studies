@@ -5,10 +5,8 @@ import "./index.css";
 
 const App = () => (
   <div className="container">
-    <div>Name: music-shop-home</div>
-    <div>Framework: react</div>
-    <div>Language: TypeScript</div>
-    <div>CSS: Empty CSS</div>
+    <h1>Music Store</h1>
+    <div className="arrow-down">V</div>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

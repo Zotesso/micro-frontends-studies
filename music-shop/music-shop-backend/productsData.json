@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "Banda 007",
-    "imageUrl": "banda-007.jpg",
+    "imageUrl": "banda-007.jpeg",
     "description": "Atualmente a banda é composta pela dupla Adriano e Rose Soares no vocal e Macaxeira na guitarra e violão."
   },
   {
     "id": 2,
     "name": "Calcinha Preta",
-    "imageUrl": "calcinha-preta.jpg",
+    "imageUrl": "calcinha-preta.jpeg",
     "description": "Calcinha Preta é uma banda de forró eletrônico, formada em 8 de dezembro de 1995 na cidade de Aracaju, pelo empresário e produtor musical Gilton Andrade."
   },
   {
     "id": 3,
     "name": "Cavaleiros do Forró",
-    "imageUrl": "cavaleiros-do-forro.jpg",
+    "imageUrl": "cavaleiros-do-forro.jpeg",
     "description": "Cavaleiros do Forró é uma banda de forró eletrônico formada em novembro de 2001 na cidade de Natal, Rio Grande do Norte."
   },
   {
     "id": 4,
     "name": "Forró Cintura de Mola",
-    "imageUrl": "forro-cintura-de-mola.jpg",
+    "imageUrl": "forro-cintura-de-mola.jpeg",
     "description": "Ouça músicas de Cintura de Mola como 'Samara', 'Há Ta', 'Não Me Faz Sofrer'."
   },
   {
     "id": 5,
     "name": "Forro do Leão",
-    "imageUrl": "forro-do-leao.jpg",
+    "imageUrl": "forro-do-leao.jpeg",
     "description": "O Som da noite, vai DJ."
   },
   {
     "id": 6,
     "name": "Forro 100 Preconceito",
-    "imageUrl": "forro-sem-preconceito.jpg",
+    "imageUrl": "forro-sem-preconceito.jpeg",
     "description": "Forro 100% sem preconceito."
   }
 ]
