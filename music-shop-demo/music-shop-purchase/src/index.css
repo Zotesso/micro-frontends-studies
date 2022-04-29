@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+}
+
+.container {
+  font-size: 3rem;
+  margin: auto;
+  margin-top: 4rem;
+  max-width: 1200px;
+}
+
+.purchase-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  max-width: 500px;
+  color: #fff;
+  font-size: 18px;
+
+}
+
+.purchase-section div {
+  margin-bottom: 3.4rem;
+}
+
+button {
+  padding: 12px;
+  margin-top: 3.4rem;
+  background-color: #fff;
+  color: #111;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  padding: 12px;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

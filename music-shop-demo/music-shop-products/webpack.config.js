@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 const { VueLoaderPlugin } = require("vue-loader");
 
 module.exports = {
@@ -44,6 +45,14 @@ module.exports = {
 
   plugins: [
     new VueLoaderPlugin(),
+    new ModuleFederationPlugin({
+      name: "music_shop_products",
+      filename: "remoteEntry.js",
+      exposes: {
+        "./ProductList": "./src/index.ts"
+      },
+      shared: require("./package.json").dependencies,
+    }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
     }),
